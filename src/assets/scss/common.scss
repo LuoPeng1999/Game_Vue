@@ -1,0 +1,24 @@
+.manage {
+    height: 100%;
+    padding-bottom: 20px;
+    overflow: hidden;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-content {
+        height: 100%;
+    }
+}
+.isLevel {
+    font-weight: bold;
+}
+.remark {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
